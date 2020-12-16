@@ -1,0 +1,12 @@
+Subject,Event Type,Time,Trial,Comments
+OK135,file made,12:03:06,0,
+OK135,Session,12:46:47,0,New Session pressed
+OK135,Trial table,12:46:56,0,New trial table generated
+OK135,ROI set,13:01:15,0,ROI set
+OK135,Puff,13:01:16,0,Calibration puff delivered
+OK135,Toggle trial mode,13:02:57,0,Start Continuous
+OK135,Toggle trial mode,13:31:10,77,Pause Continuous
+OK135,Toggle trial mode,13:31:55,77,Start Continuous
+OK135,Toggle trial mode,13:36:07,91,Pause Continuous
+OK135,Toggle trial mode,13:37:05,91,Start Continuous
+OK135,Session,13:40:21,100,Stop Session pressed
