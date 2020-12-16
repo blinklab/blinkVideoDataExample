@@ -12,7 +12,22 @@ calibLocation = strcat(videoDirectory, '\OK135_170304_s01_calib.mp4'); % directo
     % number.
     
 trials = processTrials(videoDirectory, calibLocation);
-    % we usually save this output as its own mat file
+    % description of the fields in this structure:
+    %   eyelidpos   - FEC in each video frame
+    %   tm          - time in s of each video frame relative to CS onset
+    %   fnames      - filename that these data came from
+    %   c_isi       - inter-stimulus interval (in ms) between the time that
+    %                   the CS and US are triggered
+    %   c_csnum     - neuroblinks code number corresponding to the CS that
+    %                   you used
+    %   c_csdur     - trigger duration of the CS in ms
+    %   c_usnum     - neuroblinks code number corresponding to the US that
+    %                   you used
+    %   c_usdur     - trigger duration of the US in ms
+    %   trialnum    - trial number in the neuroblinks session
+    %   session_of_day - session number you entered into neuroblinks
+    %
+    % we usually save this output as its own mat file for analysis later
 
 % Figure showing the eyelid traces from the example session
 figure
